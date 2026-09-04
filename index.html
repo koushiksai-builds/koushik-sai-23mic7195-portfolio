@@ -1,14 +1,1055 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Koushik Sai - Portfolio</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portfolio of Koushik Sai - Integrated M.Tech CSE student, developer and aspiring product professional."
+    >
+
+    <title>Koushik Sai | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Hello, I'm Koushik Sai</h1>
+    <!-- ================= PRELOADER ================= -->
 
-    <p>Welcome to my portfolio.</p>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                KS<span>.</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button
+                    class="theme-btn"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode"
+                >
+                    ☾
+                </button>
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Open navigation menu"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        INTEGRATED M.TECH CSE • VIT-AP
+                    </p>
+
+                    <h1>
+                        Hi, I'm
+                        <span>Koushik Sai.</span>
+                    </h1>
+
+                    <h2>
+                        Developer & Aspiring Product Professional
+                    </h2>
+
+                    <p class="hero-description">
+                        I enjoy building technology-driven solutions that
+                        solve real-world problems. I'm interested in software
+                        development, product thinking, system design and
+                        creating meaningful user experiences.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary">
+                            View My Projects
+                            <span>→</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Get In Touch
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/koushiksai-builds"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+
+                        <span>•</span>
+
+                        <a href="#contact">
+                            Contact
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="card-top">
+                        <span class="status-dot"></span>
+                        <span>Currently building</span>
+                    </div>
+
+                    <div class="terminal">
+
+                        <div class="terminal-header">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="terminal-body">
+
+                            <p>
+                                <span class="terminal-green">
+                                    const
+                                </span>
+                                developer = {
+                            </p>
+
+                            <p class="indent">
+                                name:
+                                <span class="terminal-yellow">
+                                    "Koushik Sai"
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                field:
+                                <span class="terminal-yellow">
+                                    "Computer Science"
+                                </span>,
+                            </p>
+
+                            <p class="indent">
+                                interests: [
+                            </p>
+
+                            <p class="indent2">
+                                "Software Development",
+                            </p>
+
+                            <p class="indent2">
+                                "Product Management",
+                            </p>
+
+                            <p class="indent2">
+                                "UI/UX",
+                            </p>
+
+                            <p class="indent2">
+                                "System Design"
+                            </p>
+
+                            <p class="indent">
+                                ]
+                            </p>
+
+                            <p>};</p>
+
+                            <p class="cursor-line">
+                                <span class="terminal-green">
+                                    &gt;
+                                </span>
+                                building...
+                                <span class="cursor"></span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                Scroll to explore
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section" id="about">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        01 / ABOUT
+                    </p>
+
+                    <h2>
+                        A little about me.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p class="large-text">
+                            I'm an Integrated M.Tech Computer Science
+                            Engineering student at VIT-AP with a strong
+                            interest in technology, software development
+                            and product building.
+                        </p>
+
+                        <p>
+                            I enjoy understanding how technology works,
+                            designing solutions to practical problems and
+                            turning ideas into usable applications.
+                        </p>
+
+                        <p>
+                            My interests span across frontend development,
+                            backend systems, event-driven architecture,
+                            databases, UI/UX and product thinking.
+                        </p>
+
+                        <p>
+                            My long-term goal is to grow into a product
+                            professional who can combine technical knowledge,
+                            user understanding and business thinking.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-highlights">
+
+                        <div class="highlight-card">
+
+                            <span class="highlight-icon">
+                                01
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Build
+                                </h3>
+
+                                <p>
+                                    Creating practical software solutions
+                                    for real-world problems.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="highlight-card">
+
+                            <span class="highlight-icon">
+                                02
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Learn
+                                </h3>
+
+                                <p>
+                                    Continuously exploring new technologies,
+                                    architectures and design approaches.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="highlight-card">
+
+                            <span class="highlight-icon">
+                                03
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Create
+                                </h3>
+
+                                <p>
+                                    Combining technology and design to create
+                                    better user experiences.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        02 / SKILLS
+                    </p>
+
+                    <h2>
+                        Technologies I work with.
+                    </h2>
+
+                    <p>
+                        A growing toolkit built through academic work,
+                        projects and continuous learning.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Programming
+                        </h3>
+
+                        <div class="skill-list">
+
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Frontend
+                        </h3>
+
+                        <div class="skill-list">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React.js</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Backend & Systems
+                        </h3>
+
+                        <div class="skill-list">
+
+                            <span>Spring Boot</span>
+                            <span>REST APIs</span>
+                            <span>Microservices</span>
+                            <span>RabbitMQ</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-number">
+                            04
+                        </div>
+
+                        <h3>
+                            Database & Cloud
+                        </h3>
+
+                        <div class="skill-list">
+
+                            <span>MySQL</span>
+                            <span>Firebase</span>
+                            <span>Firestore</span>
+                            <span>Firebase Auth</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-number">
+                            05
+                        </div>
+
+                        <h3>
+                            Tools
+                        </h3>
+
+                        <div class="skill-list">
+
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Docker</span>
+                            
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-number">
+                            06
+                        </div>
+
+                        <h3>
+                            Design & Product
+                        </h3>
+
+                        <div class="skill-list">
+
+                            <span>UI/UX</span>
+                            <span>Figma</span>
+                            <span>Product Thinking</span>
+                            <span>System Design</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section" id="projects">
+
+            <div class="section-container">
+
+                <div class="section-heading project-heading">
+
+                    <div>
+
+                        <p class="section-number">
+                            03 / PROJECTS
+                        </p>
+
+                        <h2>
+                            Things I've built.
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Selected academic and personal projects focused
+                        on solving practical problems with technology.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card featured-project">
+
+                        <div class="project-top">
+
+                            <span class="project-type">
+                                EVENT-DRIVEN • MICROSERVICES
+                            </span>
+
+                            <span class="project-index">
+                                01
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Courier & Parcel Tracking System
+                        </h3>
+
+                        <p>
+                            An event-driven courier management and tracking
+                            system designed to manage parcel booking,
+                            tracking and delivery workflows using
+                            microservices and asynchronous communication.
+                        </p>
+
+                        <div class="project-details">
+
+                            <div>
+                                <strong>Architecture</strong>
+                                <span>
+                                    Event-Driven + Microservices
+                                </span>
+                            </div>
+
+                            <div>
+                                <strong>Design Pattern</strong>
+                                <span>
+                                    Observer
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="tech-stack">
+
+                            <span>Spring Boot</span>
+                            <span>RabbitMQ</span>
+                            <span>MySQL</span>
+                            <span>Docker</span>
+
+                        </div>
+
+                        <div class="project-link">
+
+                            <a
+                                href="https://github.com/koushiksai-builds"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View on GitHub →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-type">
+                                WEB APPLICATION
+                            </span>
+
+                            <span class="project-index">
+                                02
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Tourist Medical Help Solution
+                        </h3>
+
+                        <p>
+                            A web application designed to help travelers
+                            find nearby healthcare facilities, pharmacies
+                            and medical services while providing features
+                            such as appointments, emergency support and
+                            medical records.
+                        </p>
+
+                        <div class="project-details">
+
+                            <div>
+                                <strong>Frontend</strong>
+                                <span>
+                                    React.js
+                                </span>
+                            </div>
+
+                            <div>
+                                <strong>Backend</strong>
+                                <span>
+                                    Firebase
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="tech-stack">
+
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Firestore</span>
+                            <span>Mapbox</span>
+
+                        </div>
+
+                        <div class="project-link">
+
+                            <a
+                                href="https://github.com/koushiksai-builds"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View on GitHub →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-type">
+                                GDG ON CAMPUS • SIMULATION
+                            </span>
+
+                            <span class="project-index">
+                                03
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Fuzzy Logic Washing Machine Simulation
+                        </h3>
+
+                        <p>
+                            A fuzzy-logic-based washing machine simulation
+                            exploring intelligent decision-making and
+                            automated control based on input conditions.
+                        </p>
+
+                        <div class="project-details">
+
+                            <div>
+                                <strong>Focus</strong>
+                                <span>
+                                    Fuzzy Logic
+                                </span>
+                            </div>
+
+                            <div>
+                                <strong>Type</strong>
+                                <span>
+                                    Simulation
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="tech-stack">
+
+                            <span>Fuzzy Logic</span>
+                            <span>Simulation</span>
+                            <span>Automation</span>
+
+                        </div>
+
+                        <div class="project-link">
+
+                            <a
+                                href="https://github.com/koushiksai-builds"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View on GitHub →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="section education-section" id="education">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        04 / EDUCATION
+                    </p>
+
+                    <h2>
+                        My academic journey.
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-date">
+                            PRESENT
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                Integrated M.Tech — Computer Science Engineering
+                            </h3>
+
+                            <h4>
+                                VIT-AP University
+                            </h4>
+
+                            <p>
+                                Pursuing an Integrated M.Tech in Computer
+                                Science Engineering with interests in
+                                software development, system design,
+                                UI/UX and product development.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE / ACTIVITIES ================= -->
+
+        <section class="section activities-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-number">
+                        05 / ACTIVITIES
+                    </p>
+
+                    <h2>
+                        Beyond the classroom.
+                    </h2>
+
+                </div>
+
+
+                <div class="activity-grid">
+
+
+                    <div class="activity-card">
+
+                        <span class="activity-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Developer Community
+                        </h3>
+
+                        <p>
+                            Participated in Google Developer community
+                            activities and worked on technology-focused
+                            solution projects.
+                        </p>
+
+                    </div>
+
+
+                    <div class="activity-card">
+
+                        <span class="activity-number">
+                            02
+                        </span>
+
+                        <h3>
+                            UI/UX Exploration
+                        </h3>
+
+                        <p>
+                            Interested in designing intuitive and modern
+                            user interfaces and understanding how users
+                            interact with digital products.
+                        </p>
+
+                    </div>
+
+
+                    <div class="activity-card">
+
+                        <span class="activity-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Continuous Learning
+                        </h3>
+
+                        <p>
+                            Exploring software architecture, cloud
+                            technologies, development tools and
+                            emerging technologies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTERESTS ================= -->
+
+        <section class="section interests-section">
+
+            <div class="section-container">
+
+                <div class="interests-wrapper">
+
+                    <div>
+
+                        <p class="section-number">
+                            06 / INTERESTS
+                        </p>
+
+                        <h2>
+                            Curious about technology,
+                            people and products.
+                        </h2>
+
+                    </div>
+
+
+                    <div class="interest-tags">
+
+                        <span>Product Management</span>
+                        <span>Software Development</span>
+                        <span>UI/UX Design</span>
+                        <span>System Design</span>
+                        <span>Artificial Intelligence</span>
+                        <span>Technology</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="section-container">
+
+                <div class="contact-box">
+
+                    <div class="contact-heading">
+
+                        <p class="section-number">
+                            07 / CONTACT
+                        </p>
+
+                        <h2>
+                            Let's build something
+                            meaningful.
+                        </h2>
+
+                        <p>
+                            Whether you want to discuss a project,
+                            technology, collaboration or just say hello,
+                            feel free to reach out.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-links">
+
+                        <a
+                            href="https://github.com/koushiksai-builds"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-link"
+                        >
+
+                            <span>GitHub</span>
+
+                            <span>↗</span>
+
+                        </a>
+
+
+                        <!-- Add LinkedIn later -->
+
+                        <a
+                            href="mailto:koushiksai1182004@gmail.com"
+                            class="contact-link"
+                        >
+
+                            <span>Email</span>
+
+                            <span>↗</span>
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <p>
+                © <span id="year"></span> Koushik Sai.
+                Built with curiosity and code.
+            </p>
+
+            <a href="#home">
+                Back to top ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
 
 </body>
 </html>
